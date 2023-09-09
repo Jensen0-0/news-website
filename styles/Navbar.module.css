@@ -1,0 +1,264 @@
+.container {
+    --navbar-bg: rgb(212, 212, 212);
+    --navbar-selected-bg: rgb(194, 193, 193);
+    --box-shadow: rgb(147, 147, 147);
+}
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        --navbar-bg: rgb(24, 24, 24);
+        --navbar-selected-bg: rgb(49, 49, 49);
+        --box-shadow: rgb(15, 15, 15);
+        position: relative;
+    }
+}
+
+
+.nav {
+    font-size: 1.5rem;
+}
+
+.nav ul {
+    height: 100%;
+    transition: ease;
+    transition-duration: 300ms;
+    margin-left: 0rem;
+    z-index: 10;
+    list-style-type: none;
+    padding: 0;
+    width: 20rem;
+    background-color: var(--navbar-bg);
+    position: fixed;
+
+    overflow: hidden;
+
+
+}
+
+.nav li {
+
+    text-align: center;
+}
+
+.navLink {
+    resize: none;
+    display: block;
+
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: ease;
+    transition-duration: 200ms;
+}
+
+
+
+.navLink:hover {
+    background-color: var(--navbar-selected-bg);
+    scale: 110%;
+    box-shadow:
+        0 0 20px 10px var(--box-shadow)
+}
+
+.nav .img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    border-radius: 10px;
+    padding: 10px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+
+.nav hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 5px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.logoContainer {
+    padding: 2rem;
+    transition: ease;
+    transition-duration: 1000ms;
+    margin: auto;
+
+
+}
+
+.logoContainer:hover {
+    filter: drop-shadow(0 0 50px rgb(255, 255, 255));
+}
+
+@media (prefers-color-scheme: light) {
+    .logoContainer:hover {
+
+        filter: drop-shadow(0 0 50px rgb(0, 0, 0));
+    }
+
+}
+
+.closeNavBtn {
+    font-size: 3rem;
+    color: gray;
+    position: absolute;
+    bottom: 1rem;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transition: ease;
+    transition-duration: 200ms;
+
+}
+
+.closeNavBtn:hover {
+    filter: brightness(3);
+}
+
+
+/* .contentFull {
+    transition: ease-in-out;
+    transition-duration: 300ms;
+    width: calc(100vw - 20rem);
+    display: table;
+} */
+
+
+
+
+
+
+.openNavContainer {
+
+    position: absolute;
+
+}
+
+
+
+.openNavBtn {
+    box-shadow: 5px 5px 38px 5px rgba(0, 0, 0, 0.75);
+    position: fixed;
+    bottom: 0;
+
+    width: 100px;
+    height: auto;
+    z-index: 5;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    background-color: var(--navbar-bg);
+    border-radius: 999px;
+    transition: ease;
+    transition-duration: 200ms;
+}
+
+.openNavBtn:hover {
+    background-color: var(--navbar-selected-bg);
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+
+    /* .contentFull {
+        margin-left: calc(20rem/2);
+    } */
+    .content {
+        transition: ease;
+        transition: 200ms;
+        width: calc(100vw - 20rem);
+        margin-left: 20rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    /* .contentFull {
+        width: 100vw;
+        transition: none;
+    } */
+    .nav ul {
+        display: none;
+    }
+
+    .nav {
+        font-size: 2rem;
+    }
+
+    .content {
+        width: 100vw;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+
+
+
+
+    .content {
+        position: static;
+        transition-delay: 5s;
+        /* transition-duration: 1s; */
+    }
+
+    /* .contentFull {
+        position: static;
+        transition-duration: 0;
+    } */
+
+    .nav ul {
+
+        width: 100vw;
+    }
+
+    .nav ul {
+
+        width: 100vw;
+    }
+
+
+    .openNavBtn {
+        margin-left: 0;
+        left: 0;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .logoContainer {
+        width: 70vw;
+    }
+
+}
+
+@media only screen and (max-height: 800px) {
+    .logoContainer {
+        width: 30vh;
+    }
+
+}

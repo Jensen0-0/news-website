@@ -1,0 +1,59 @@
+@media only screen and (min-width: 600px) {
+    .tall {
+        grid-row: span 2;
+
+    }
+
+    .wide {
+        grid-column: span 2;
+    }
+
+
+}
+
+.thumbnail {
+    transition: ease;
+    transition-duration: 200ms;
+}
+
+.thumbnail:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    scale: 105%;
+    cursor: pointer;
+
+
+}
+
+.darkened {
+    filter: brightness(50%);
+    transition: ease;
+    transition-duration: 200ms;
+
+}
+
+.thumbnail:hover .darkened {
+    filter: brightness(70%);
+}
+
+.btnTransition {
+    transition: ease;
+    transition-duration: 200ms;
+}
+
+.extraInfo {
+    filter: opacity(0);
+    transition: ease;
+    transition-duration: 200ms;
+}
+
+.thumbnail:hover .extraInfo {
+    filter: opacity(100%);
+    scale: 100%;
+}
+
+@media (hover:none) {
+    .thumbnail:hover .extraInfo {
+        filter: opacity(0%);
+        scale: 0%;
+    }
+}
