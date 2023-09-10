@@ -4,7 +4,7 @@ export default function Info({ posts }) {
     return (
         <div className="">
             <div className="m-auto p-10 w-full">
-            <b>  Voor uw eigen nieuws pagina kan u uw zelf nu nog aanmelding in de gemeente app onder de categorie Sollicitatie's </b>
+            <b>  Voor uw eigen nieuws pagina kan u uw zelf nu nog aanmelding in de gemeente app onder de categorie Sollicitatie&apos;s </b>
             </div>
 
 
