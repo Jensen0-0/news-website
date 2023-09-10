@@ -1,7 +1,7 @@
 ---
 title: 'triatlon Zuidermeer'
 date: '10 september 2023'
-excerpt: '.'
+excerpt: 'Bij  Dominique L. '
 cover_image: '/images/posts/traitlon.png'
 width: 2
 height: 2
