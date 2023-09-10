@@ -1,7 +1,7 @@
+
 import Image from "next/image"
 import ZMLogo from "../assets/branding/ZM_logo.png"
 import ZMBanner from "../assets/branding/ZM_banner.gif"
-
 export default function Info({ posts }) {
     return (
         <div className="">
