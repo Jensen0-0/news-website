@@ -1,7 +1,7 @@
 ---
 title: 'Ronnie weg als leiding?'
 date: '10 september 2023'
-excerpt: 'Kmar overname.'
+excerpt: 'Bij Memphis.'
 cover_image: '/images/posts/kct.png'
 width: 2
 height: 2
