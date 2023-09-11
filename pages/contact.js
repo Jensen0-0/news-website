@@ -7,12 +7,12 @@ export default function Info({ posts }) {
       <div className="w-full text-center">
         <div className="text-xl">Anouk Klaasen</div>
         <Image src="/images/posts/anouk.png" alt="KCT Image" width={500} height={400} />
-        <div className="">Telefoon nummer: 0606663023 </div>
+        <div className="">Telefoon nummer: 06 06663023 </div>
       </div>
       <div className="w-full text-center">
         <div className="text-xl">Herman Bergen </div>
-        <Image src="/images/posts/kct.png" alt="KCT Image" width={500} height={400} />
-        <div className="">Telefoon nummer: ----------- </div>
+        <Image src="/images/posts/herman.png" alt="KCT Image" width={500} height={400} />
+        <div className="">Telefoon nummer: 06 85784758 </div>
       </div>
     </div>
   );
