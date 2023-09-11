@@ -1,12 +1,12 @@
 ---
-title: 'triatlon Zuidermeer'
+title: 'triatlon Zuidermeer 🏁 '
 date: '10 september 2023'
 excerpt: 'Bij  Dominique L. '
 cover_image: '/images/posts/traitlon.png'
 width: 2
 height: 2
 ---
-# triatlon door MS13
+# triatlon in Zuidermeer 
 De volgende heren zijn de winnaars van het triatlon event
 
 - Rico Alba 
