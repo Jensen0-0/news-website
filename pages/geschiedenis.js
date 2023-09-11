@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import navStyle from '../styles/Navbar.module.css'
 import styles from '../styles/Home.module.css'
-import Post from '../components/post'
+import Post from '../components/old-post'
 
 
 
