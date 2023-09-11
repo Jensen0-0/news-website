@@ -82,6 +82,7 @@ const Navbar = ({ children }) => {
 
                     <hr></hr>
                     <li onClick={shouldClose}><Link href={"/"}><a className={styles.navLink}>Home</a></Link></li>
+                    <li onClick={shouldClose}><Link href={"/geschiedenis"}><a className={styles.navLink}>Geschiedenis</a></Link></li>
                     <li onClick={shouldClose}><Link href={"/contact"}><a className={styles.navLink}>Contact</a></Link></li>
                     <li onClick={shouldClose}><Link href={"/info"}><a className={styles.navLink}>Info</a></Link></li>
                     <button className={styles.closeNavBtn} onClick={closeNav}>
