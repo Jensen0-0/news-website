@@ -5,7 +5,7 @@ export default function Info({ posts }) {
   return (
     <div className="w-full h-full flex justify-center align-center">
       <div className="w-full text-center">
-        <div className="text-xl">Anouk Klaasen</div>
+        <div className="text-xl">Anouk Klaassen</div>
         <Image src="/images/posts/anouk.png" alt="KCT Image" width={500} height={400} />
         <div className="">Telefoon nummer: 06 06663023 </div>
       </div>
