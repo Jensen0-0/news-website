@@ -5,6 +5,9 @@ date: ' 22 september 2023'
 
 excerpt: ' Bij  Anouk klaassen. '
 
+width: 2
+height: 2
+
 
 cover_image: '/images/posts/foto_binnen.png'
 ---

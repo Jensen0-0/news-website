@@ -5,6 +5,8 @@ date: ' 22 september 2023'
 
 excerpt: ' Bij  Jaap Broek. '
 
+width: 2
+height: 2
 
 cover_image: '/images/posts/1.png'
 ---
