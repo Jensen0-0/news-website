@@ -6,7 +6,7 @@ date: ' 22 september 2023'
 excerpt: ' Bij  Anouk klaassen. '
 
 
-cover_image: '/images/posts/tankstation.jpg'
+cover_image: '/images/posts/tankstation.png'
 ---
 
 

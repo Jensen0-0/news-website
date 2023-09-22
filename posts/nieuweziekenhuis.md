@@ -6,7 +6,7 @@ date: ' 22 september 2023'
 excerpt: ' Bij  Anouk klaassen. '
 
 
-cover_image: '/images/posts/foto_binnen.jpg'
+cover_image: '/images/posts/foto_binnen.png'
 ---
 
 
@@ -14,4 +14,4 @@ Gisteren middag was het eindelijk zo ver. De bouw van het ziekenhuis was eindeli
 
 Dit kon natuurlijk nooit gedaan worden zonder de mensen die hard werken achter de schermen van de gemeente. Zij hebben ervoor gezorgd dat het er pico bello uitziet en mensen er goed geholpen kunnen worden. Dat elke kamer maximaal benut kan worden. Hartelijk bedankt aan iedereen en mogen er veel levens gered worden!
 
-![anouk!](/images/posts/foto_buiten.jpg)
+![anouk!](/images/posts/foto_buiten.png)
