@@ -8,7 +8,7 @@ excerpt: " Bij  Vanicx and Jamillio. "
 width: 2
 height: 2
 
-cover_image: "/images/posts/tragisch_ongeval.png"
+cover_image: '/images/posts/ongeval.png'
 ---
 
 Tragisch ongeval op een tragische dag
