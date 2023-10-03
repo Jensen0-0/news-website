@@ -8,7 +8,7 @@ excerpt: " Bij  Anouk klaassen and Jip. "
 width: 2
 height: 2
 
-cover_image: "/images/posts/vliegbrevet.png"
+cover_image: '/images/posts/Vliegbrevet.png'
 ---
 
 Grafieken Zuidermeer 0.02
