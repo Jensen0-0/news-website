@@ -1,7 +1,7 @@
 ---
 title: ' Het nieuwe ziekenhuis! 🚑 '
 
-date: ' 22 september 2023' 
+date: ' 21 september 2023' 
 
 excerpt: ' Bij  Anouk klaassen. '
 

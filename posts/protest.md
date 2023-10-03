@@ -1,7 +1,7 @@
 ---
 title: ' Protest op bp gaat fout! '
 
-date: ' 22 september 2023' 
+date: ' 17 september 2023' 
 
 excerpt: ' Bij  Anouk klaassen. '
 
